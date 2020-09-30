@@ -5,16 +5,17 @@
 
 int main()
 {
+    setlocale(LC_ALL, "Portuguese");
     float n1, n2, n3;
     int op, rep;
 do{
     printf("---------MENU---------\n");
     printf("1.Soma\n");
-     printf("2.subtraÁ„o\n");
-       printf("3.multiplicaÁ„o\n");
-         printf("4.divis„o\n");
+     printf("2.subtra√ß√£o\n");
+       printf("3.multiplica√ß√£o\n");
+         printf("4.divis√£o\n");
           printf("---------MENU---------\n");
-          printf("Escolha uma OperaÁ„o...\n");
+          printf("Escolha uma Opera√ß√£o...\n");
      scanf("%d", &op);
 
 switch (op)
@@ -56,10 +57,10 @@ switch (op)
         break;
 
      default:
-     printf("OperaÁ„o invalida.");
+     printf("Opera√ß√£o invalida.");
         break;
    }
-    printf("\nDeseja voltar ao menu? \n 1-SIM \t\tOU\t 2-N√O\n\t\t");
+    printf("\nDeseja voltar ao menu? \n 1-SIM \t\tOU\t 2-N√ÉO\n\t\t");
  scanf("%d", &rep);
 
    }
